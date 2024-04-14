@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.search__input__field {
+  width: 30rem;
+  height: auto;
+  padding: 2rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  position: relative;
+}
+
+.search__input__field h2 {
+  text-align: center;
+}
+
+.search__input__field input {
+  width: 90%;
+  padding: 5px 15px;
+  outline: none !important;
+  margin-bottom: 1rem;
+
+}
+
+.suggestion {
+  overflow-y: scroll;
+  max-height: 300px;
+  width: 97%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+
+  &:hover {
+    background-color: #ccc;
+  }
+}
+
+.user_info:last-child {
+  border-bottom: none;
+}
+
+.user_info img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.pills {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  background-color: #454545;
+  color: #fff;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.pills img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.pills p {
+  font-size: 12px;
+}
+
+.pills_user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.pills button {
+  background: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

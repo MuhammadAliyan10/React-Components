@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0rem 2rem;
+}
+
+.OPT input {
+  width: 20px;
+  margin-right: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none !important;
+}
